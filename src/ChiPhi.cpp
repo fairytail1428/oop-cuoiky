@@ -6,8 +6,8 @@ ChiPhi::ChiPhi() {
 }
 
 ChiPhi::ChiPhi(double sinhhoat, double khac) {
-    sinhhoat = sinhhoat;
-    khac = khac;
+    this->sinhhoat = sinhhoat;
+    this->khac = khac;
 }
 
 double ChiPhi::tong() {
