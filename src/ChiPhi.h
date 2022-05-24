@@ -7,8 +7,14 @@ protected:
     double khac;
 public:
     ChiPhi();
-    // ChiPhi(const ChiPhi&);
+    ChiPhi(const ChiPhi&cp);
     ChiPhi(double, double);
+    void set_sinhhoat(double);
+    void set_khac(double);
+    double get_sinhhoat();
+    double get_khac();
+    void nhap();
+    void xuat();
     double tong();
 };
 
